@@ -1,7 +1,7 @@
 # DIAMOND Gacha Bot — Full README
 
 > ระบบบอทกาชา (Classic/Premium) + จัดการพอยต์ + เติมเงิน TrueMoney + แผงควบคุมแอดมิน + ระบบตั๋ว + ฟิลเตอร์ลิงก์ + OCR + ข้อความ/อีเวนต์ ยูทิลิตี้  
-> สร้างด้วย **Python / nextcord** และ **MySQL**
+> สร้างด้วย **Python / nextcord** และ **SQL**
 
 ---
 
@@ -91,7 +91,7 @@
 ## การติดตั้ง & รัน
 
 ### 1) Python & Dependencies
-- Python 3.11+ (รองรับ 3.12)
+- Python 3.9 (รองรับ 3.9)
 - ติดตั้ง library ที่ต้องใช้:
 ```bash
 pip install nextcord mysql-connector-python aiohttp requests
@@ -153,7 +153,7 @@ Connected to Discord API
 
 ## ฐานข้อมูล (MySQL Schema)
 
-ระบบใช้ adapter `MongoDatabase(type="mysql")` แต่ภายในเป็น **MySQL** 100% เพื่อไม่ต้องแก้โค้ก cogs เดิมมาก
+ระบบใช้ MySQL Schema
 
 ตารางหลัก:
 
